@@ -27,10 +27,9 @@
 ## 💻 セットアップ（開発環境構築）
 プロジェクトをローカル環境で動かす方法を説明します。
 
-### クローンする
-```sh
-git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
-cd REPO-NAME
+クローンする
+
+---
 
 ## 📂 フォルダ構成
 /REPO-NAME
