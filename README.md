@@ -27,7 +27,18 @@
 ## 💻 セットアップ（開発環境構築）
 プロジェクトをローカル環境で動かす方法を説明します。
 
-### 1. クローンする
+### クローンする
 ```sh
 git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
 cd REPO-NAME
+
+## 📂 フォルダ構成
+/REPO-NAME
+├── src/          # ソースコード
+│   ├── components/   # UIコンポーネント
+│   ├── pages/        # 各ページ
+│   ├── assets/       # 画像・CSS・JSなど
+├── public/       # 静的ファイル
+├── README.md     # このファイル
+├── package.json  # Node.jsプロジェクト用
+└── .gitignore    # Git管理から除外するファイル
