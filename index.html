@@ -3,7 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="icon" href="./img/favicon.ico" />
+    <title>PHOTO BOOK 2</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header id="header">
+        <h1 class="site-title">
+          <a href="#">
+            <img src="./img/logo.svg" alt="PHOTO BOOK 2" />
+          </a>
+        </h1>
+      </header>
+      <main>
+        <div id="mainvisual">
+          <img src="./img/mainvisual.jpg" alt="メインビジュアル" />
+        </div>
+
+        <div id="inner">
+          <section id="index">
+            <h2 class="section-title">INDEX</h2>
+            <div class="index-inner">
+              <ol class="index-list">
+                <li>タイトルタイトルタイトル</li>
+                <li>タイトルタイトルタイトル</li>
+                <li>タイトルタイトルタイトル</li>
+                <li>タイトルタイトルタイトル</li>
+                <li>タイトルタイトルタイトル</li>
+              </ol>
+            </div>
+          </section>
+
+          <ul class="photo-list">
+            <li><img src="./img/photo1.jpg" alt="Photo1" /></li>
+            <li><img src="./img/photo2.jpg" alt="Photo2" /></li>
+            <li><img src="./img/photo3.jpg" alt="Photo3" /></li>
+            <li><img src="./img/photo4.jpg" alt="Photo4" /></li>
+          </ul>
+
+          <section id="detail">
+            <h2 class="section-title">DETAIL</h2>
+            <div class="detail-list">
+              <dl>
+                <dt>著者：</dt>
+                <dd>山田太郎</dd>
+                <dt>出版社：</dt>
+                <dd>雑談社</dd>
+                <dt>発行年：</dt>
+                <dd>2100年</dd>
+              </dl>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer id="footer">
+        <p class="inner">&copy; 2100 PHOTO BOOK 2</p>
+      </footer>
+    </div>
+  </body>
 </html>
+
+<!-- //idは唯一無二のものに、classは複数の要素に適用できるものに使う -->
